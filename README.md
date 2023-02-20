@@ -58,8 +58,8 @@ Go binaries generally have no installation dependencies, compiler statically lin
 | [DeviceIoControl](../master/DeviceIoControl/src/main.rs)                                               | Opens driver handle and executing DeviceIoControl                                                                                                                                        |
 | [EnableDebugPrivileges](../master/EnableDebugPrivileges/src/main.rs)                                   | Enable SeDebugPrivilege in the current process                                                                                                                                            |
 | [Shellcode_Local_inject](../master/Shellcode_Local_inject/src/main.rs)                                 | Executes shellcode directly in local process by casting pointer                                                                                                                      |
-| [Sleep Obfuscation](../master/Sleep_Obfuscation/main.go)                                               | Perform Sleep Obfuscation with Queue Timers                                                                                                                                              |
-
+| [Sleep Obfuscation](../main/Sleep_Obfuscation/main.go)                                                 | Perform Sleep Obfuscation with Queue Timers                                                                                                                                              |
+ 
 
 
 ## Interesting Tools in Golang
