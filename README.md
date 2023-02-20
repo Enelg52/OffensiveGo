@@ -5,7 +5,17 @@
 
 This repo that contains some examples of offensives tools & utilities that can be used in a red team engagement rewrote in Golang. This project is also a way to train me to golang.
 
-## Previous work :
+## Table of Content
+
+- [Previous work](#previous-work)
+- [About Golang](#about-golang)  
+  - [Installation](#installation)
+  - [Compilation](#compilation)
+- [Examples](#examples)
+- [Interesting Tools in Golang](#interesting-tools-in-golang)
+- [Credits](#credits)
+
+## Previous work
 
 These repo inspires me to make [OffensiveGo](https://github.com/RistBS/OffensiveGo)
 
@@ -19,6 +29,15 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 - **Garbage collection**: Go uses garbage collection, which makes memory management easier for developers. Rust, on the other hand, uses a borrow checker to enforce memory safety, which can be more difficult to work with.
 - **Cross-platform support**: Go has excellent cross-platform support and can be compiled to run on a wide range of platforms, including Windows, Linux, and macOS. Rust also has good cross-platform support, but its compilation process can be more complex.
 
+
+### Installation
+
+
+### Compilation
+
+`go build` for compilation 
+
+Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries
 
 
 ## Examples 
@@ -48,16 +67,6 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 
 
 
-## OPSEC Considerations
-
 ## Credits
 
 - [@BlueSentinelSec](https://twitter.com/BlueSentinelSec) - https://github.com/bluesentinelsec/OffensiveGoLang/blob/master/Offensive%20GoLang%202.0%20-%20SANS%20Pen%20Test%20HackFest%202021.pdf
-
-
-### Golang Installation
-
-
-`go build` for compilation 
-
-Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries
