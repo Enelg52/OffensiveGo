@@ -13,3 +13,9 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 ## Examples 
 
 
+### Golang Installation
+
+
+`go build` for compilation 
+
+Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries
