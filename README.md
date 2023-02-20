@@ -1,6 +1,6 @@
 # OffensiveGo - Golang Weaponization for your malwares.
 
-![image](https://user-images.githubusercontent.com/75935486/220174493-295c105e-ce04-4f75-8ddc-d8fb2efe1062.png)
+![image](https://user-images.githubusercontent.com/75935486/220174996-d0a44ce7-6c90-4ec1-b140-c410cfc0fc07.png)
 
 
 This repo that contains some examples of offensives tools & utilities that can be used in a red team engagement rewrote in Golang. This project is also a way to train me to golang.
