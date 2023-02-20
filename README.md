@@ -53,12 +53,18 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 | File                                                                                                   | Description                                                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Allocate_With_Syscalls](../master/Allocate_With_Syscalls/src/main.rs)                                 | It uses NTDLL functions directly with the ntapi Library                                                                                                                                  |
-| [Create_DLL](../master/Create_DLL/src/lib.rs)                                                          | Creates DLL and pops up a msgbox, Rust does not fully support this so things might get weird since Rust DLL do not have a main function                                            |
-| [DeviceIoControl](../master/DeviceIoControl/src/main.rs)                                               | Opens driver handle and executing DeviceIoControl                                                                                                                                        |
-| [EnableDebugPrivileges](../master/EnableDebugPrivileges/src/main.rs)                                   | Enable SeDebugPrivilege in the current process                                                                                                                                            |
-| [Detect Hooks](../master/detect_hooks/detect_hooks.go)                                 | Detect Hooks set by AV/EDR on NTDLL                                                                                                                     |
-| [Sleep Obfuscation](../main/Sleep_Obfuscation/main.go)                                                 | Perform Sleep Obfuscation with Queue Timers                                                                                                                                              |
+| [Process Injection Native - NtQueueUserApcThread](../master/Allocate_With_Syscalls/src/main.rs)        | Execute a shellcode with NtQueueUserApcThread  |
+| [Process Injection Native - NtCreateThreadEx](../master/Create_DLL/src/lib.rs)                         | Execute a shellcode with NtCreateThreadEx  |
+| [API hashing](../main/detect_hooks/main.go)                                                  | resolve APIs from EAT using DJB2 hashing algorithm (you can bring your own algorithm)  |
+| [Whoami](../main/detect_hooks/main.go)                                                  | rebuilt whoami process to show current user, groups & privileges   |
+| [EnableDebugPrivileges](../main/EnableDebugPrivileges/main.go)                                   | Enable SeDebugPrivilege in the current process    |
+| [execute-assembly](../main/detect_hooks/main.go)                                                  | Loads CLR and execute .NET assemblies in memory  |
+| [COFF loader](../main/detect_hooks/main.go)                                                  | COFF loader to load PE files in memory   |
+| [ACG + BlockDll](../main/detect_hooks/main.go)                                                  | Apply Arbitrary Code Guard (ACG) & BlockDll policy on your process |
+| [Process Argument Stomping](../main/detect_hooks/main.go)                                                  | Erase Process argument by parsing RtlUserProcessParameters  |
+| [DNS over HTTP (DoH)](../main/detect_hooks/main.go)                                                  | A support of DNS over HTTP (DoH) for C2 communication  |
+| [Detect Hooks](../main/detect_hooks/main.go)                                                 | Detect Hooks set by AV/EDR on NTDLL               |
+| [Sleep Obfuscation](../main/sleep_obfuscation/main.go)                                                 | Perform Sleep Obfuscation with Queue Timers       |
  
 
 
