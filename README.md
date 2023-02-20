@@ -30,7 +30,7 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 | [DeviceIoControl](../master/DeviceIoControl/src/main.rs)                                               | Opens driver handle and executing DeviceIoControl                                                                                                                                        |
 | [EnableDebugPrivileges](../master/EnableDebugPrivileges/src/main.rs)                                   | Enable SeDebugPrivilege in the current process                                                                                                                                           |
 | [Shellcode_Local_inject](../master/Shellcode_Local_inject/src/main.rs)                                 | Executes shellcode directly in local process by casting pointer                                                                                                                          |
-| [Execute_With_CMD](../master/Execute_Without_Create_Process/src/main.rs)                               | Executes cmd by passing a command via Rust                                                                                                                                               |
+| [Execute_With_CMD](../master/Execute_Without_Create_Process/src/main.rs)                               | Perform Sleep Obfuscation with Queue Timers                                                                                                                                               |
 
 
 
