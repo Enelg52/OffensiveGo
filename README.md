@@ -30,6 +30,15 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 - **Cross-platform support**: Go has excellent cross-platform support and can be compiled to run on a wide range of platforms, including Windows, Linux, and macOS. Rust also has good cross-platform support, but its compilation process can be more complex.
 
 
+Why using Golang
+
+- Excellent cross platform compilation capabilities
+- Performant, type safe, garbage collected
+- Robust development stack
+- Native code with few, if any, deployment dependencies
+- Easy Syntax
+
+
 ### Installation
 
 
