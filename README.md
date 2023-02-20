@@ -37,11 +37,14 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 
 ## Interesting Tools in Golang
 
+
+
+
 ## OPSEC Considerations
 
 ## Credits
 
-- 
+- [@BlueSentinelSec](https://twitter.com/BlueSentinelSec) - https://github.com/bluesentinelsec/OffensiveGoLang/blob/master/Offensive%20GoLang%202.0%20-%20SANS%20Pen%20Test%20HackFest%202021.pdf
 
 
 ### Golang Installation
