@@ -47,8 +47,8 @@ TODO : credits
 
 | File                                                                                                   | Description                                                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Process Injection Native - APC](../main/injection_native_apc/main.go)        | Execute a shellcode with NtQueueUserApcThread  |
-| [Process Injection Native - NtCreateThreadEx](../main/injection_native_thread/main.go)                         | Execute a shellcode with NtCreateThreadEx  |
+| [Process Injection - APC](../main/injection_native_apc/main.go)        | Execute a shellcode with NtQueueUserApcThread  |
+| [Process Injection - NtCreateThreadEx](../main/injection_native_thread/main.go)                         | Execute a shellcode with NtCreateThreadEx  |
 | [API hashing](../main/api_hashing/main.go)                                                  | resolve APIs from EAT using DJB2 hashing algorithm (you can bring your own algorithm)  |
 | [Whoami](../main/whoami/main.go)                                                  | rebuilt whoami process to show current user, groups & privileges   |
 | [EnableDebugPrivileges](../main/enable_debug_priv/main.go)                                   | Enable SeDebugPrivilege in the current process    |
