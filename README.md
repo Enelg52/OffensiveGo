@@ -4,7 +4,6 @@
 
 
 This repo contains some examples of offensives tools & utilities rewrote in Golang that can be used in a red team engagement. 
-> This project was also a way to train me more to golang.
 
 ## Table of Content
 
