@@ -1,4 +1,4 @@
-# OffensiveGo - Golang Weaponization for your malwares.
+# OffensiveGo - Golang Weaponization for Red Team Engagements.
 
 ![image](https://user-images.githubusercontent.com/75935486/220174996-d0a44ce7-6c90-4ec1-b140-c410cfc0fc07.png)
 
