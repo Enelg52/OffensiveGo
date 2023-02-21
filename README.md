@@ -53,7 +53,6 @@ TODO : credits
 | [Whoami](../main/whoami/main.go)                                                  | rebuilt whoami process to show current user, groups & privileges   |
 | [EnableDebugPrivileges](../main/enable_debug_priv/main.go)                                   | Enable SeDebugPrivilege in the current process    |
 | [execute-assembly](../main/detect_hooks/main.go)                                                  | Loads CLR and execute .NET assemblies in memory  |
-| [COFF loader](../main/coff_loader/main.go)                                                  | COFF loader to load PE files in memory   |
 | [ACG + BlockDll](../main/acg_blockdll_process/main.go)                                                  | Apply Arbitrary Code Guard (ACG) & BlockDll policy on your process |
 | [Process Argument Stomping](../main/process_arg_stomping/main.go)                                                  | Erase Process argument by parsing RtlUserProcessParameters  |
 | [DNS over HTTP (DoH)](../main/dns_over_http/main.go)                                                  | A support of DNS over HTTP (DoH) for C2 communication  |
