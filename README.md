@@ -57,7 +57,7 @@ Go binaries generally have no installation dependencies, compiler statically lin
 | [Process Injection Native - NtCreateThreadEx](../main/injection_native_thread/main.go)                         | Execute a shellcode with NtCreateThreadEx  |
 | [API hashing](../main/api_hashing/main.go)                                                  | resolve APIs from EAT using DJB2 hashing algorithm (you can bring your own algorithm)  |
 | [Whoami](../main/whoami/main.go)                                                  | rebuilt whoami process to show current user, groups & privileges   |
-| [EnableDebugPrivileges](../main/EnableDebugPrivileges/main.go)                                   | Enable SeDebugPrivilege in the current process    |
+| [EnableDebugPrivileges](../main/enable_debug_priv/main.go)                                   | Enable SeDebugPrivilege in the current process    |
 | [execute-assembly](../main/detect_hooks/main.go)                                                  | Loads CLR and execute .NET assemblies in memory  |
 | [COFF loader](../main/coff_loader/main.go)                                                  | COFF loader to load PE files in memory   |
 | [ACG + BlockDll](../main/acg_blockdll_process/main.go)                                                  | Apply Arbitrary Code Guard (ACG) & BlockDll policy on your process |
