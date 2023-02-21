@@ -31,6 +31,7 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 
 **OPSEC Consideration & Caveats of Golang**
 
+Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries
 
 ### Installation
 
@@ -38,8 +39,6 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 ### Compilation
 
 `go build` for compilation 
-
-Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries
 
 
 ## Examples 
