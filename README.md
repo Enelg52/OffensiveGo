@@ -19,8 +19,8 @@
 
 These repo inspires me to make [OffensiveGo](https://github.com/RistBS/OffensiveGo)
 
-- https://github.com/trickster0/OffensiveRust : Made by [trickster012](https://twitter.com/trickster012), this projects contains a bunch of example made in Rust
-- https://github.com/byt3bl33d3r/OffensiveNim : 
+- [OffensiveRust](https://github.com/trickster0/OffensiveRust) : Made by [trickster012](https://twitter.com/trickster012), this project contains a bunch of examples made in [Rust](https://www.rust-lang.org/).
+- [OffensiveNim](https://github.com/byt3bl33d3r/OffensiveNim) : Made by [byt3bl33d3r](https://twitter.com/byt3bl33d3r), this one contains examples written in [Nim](https://nim-lang.org/).
 
 
 ## About Golang
