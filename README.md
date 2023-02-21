@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/75935486/220217814-242de1ba-1f62-4b0b-a1be-6cf8b82ab0da.png)
 
 
-This repo that contains some examples of offensives tools & utilities that can be used in a red team engagement rewrote in Golang. This project is also a way to train me to golang.
+This repo contains some examples of offensives tools & utilities rewrote in Golang that can be used in a red team engagement. This project is also a way to train me to golang.
 
 ## Table of Content
 
