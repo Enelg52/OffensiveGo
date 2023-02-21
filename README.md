@@ -26,13 +26,15 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 ## About Golang
 
 - **Simpler syntax**: Go's syntax is simpler and easier to learn compared to Rust, which has a steeper learning curve.
-- **Garbage collection**: Go uses garbage collection, which makes memory management easier for developers. Rust, on the other hand, uses a borrow checker to enforce memory safety, which can be more difficult to work with.
+- **Garbage collection**: Go uses garbage collection, which makes memory management easier for developers.
 - **Cross-platform support**: Go has excellent cross-platform support and can be compiled to run on a wide range of platforms, including Windows, Linux, and macOS. Rust also has good cross-platform support, but its compilation process can be more complex.
-- **Goroutine**: Concurrency
+- **Goroutine**:  Goroutines are lightweight threads of execution that enable concurrent programming in Go, making it easy to write efficient, safe, and scalable concurrent programs, allowing for non-blocking concurrent execution and communication via channels.
 
 **OPSEC Consideration & Caveats of Golang**
 
 Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries
+
+Avoid buffer overflows: Buffer overflows occur when a program writes data beyond the end of a buffer, which can lead to memory corruption and potentially allow attackers to execute arbitrary code. To avoid buffer overflows, use Go's built-in safe string manipulation functions, such as copy() and append(), and avoid using unsafe pointer arithmetic.
 
 ### Installation
 
@@ -41,6 +43,8 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 `go build` for compilation 
 
+- go build -ldflags="-s -w" file.go
+- Hide console, to avoid Go program displaying console windows on execution : `go build -ldflags -H=windowsgui rshell.go`
 
 ## Examples 
 
