@@ -29,6 +29,8 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 - **Garbage collection**: Go uses garbage collection, which makes memory management easier for developers. Rust, on the other hand, uses a borrow checker to enforce memory safety, which can be more difficult to work with.
 - **Cross-platform support**: Go has excellent cross-platform support and can be compiled to run on a wide range of platforms, including Windows, Linux, and macOS. Rust also has good cross-platform support, but its compilation process can be more complex.
 
+**OPSEC Consideration & Caveats of Golang**
+
 
 ### Installation
 
