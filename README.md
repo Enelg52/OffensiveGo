@@ -36,9 +36,6 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 Avoid buffer overflows: Buffer overflows occur when a program writes data beyond the end of a buffer, which can lead to memory corruption and potentially allow attackers to execute arbitrary code. To avoid buffer overflows, use Go's built-in safe string manipulation functions, such as copy() and append(), and avoid using unsafe pointer arithmetic.
 
-### Installation
-
-
 ### Compilation
 
 `go build` for compilation 
