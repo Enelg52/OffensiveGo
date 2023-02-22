@@ -34,7 +34,6 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 
 Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries. 2 MB for "Hello World" compared to 54 KB in C.
 
-Avoid buffer overflows: Buffer overflows occur when a program writes data beyond the end of a buffer, which can lead to memory corruption and potentially allow attackers to execute arbitrary code. To avoid buffer overflows, use Go's built-in safe string manipulation functions, such as copy() and append(), and avoid using unsafe pointer arithmetic.
 
 ### Compilation
 
