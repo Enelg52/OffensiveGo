@@ -44,8 +44,6 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 ## Examples 
 
-TODO : credits
-
 | File                                                                                                   | Description                                                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Process Injection - APC](../main/injection_native_apc/main.go)        | Execute a shellcode with `NtQueueApcThread`  |
