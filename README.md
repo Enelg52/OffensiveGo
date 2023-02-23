@@ -39,7 +39,7 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 `go build` for compilation 
 
-- go build -ldflags="-s -w" file.go
+- Omit debug symbols and strip the symbol table. it can also reduce binary size by about 30% : `go build -ldflags="-s -w" file.go`
 - Hide console, to avoid Go program displaying console windows on execution : `go build -ldflags -H=windowsgui rshell.go`
 
 ## Examples 
