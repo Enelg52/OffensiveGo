@@ -11,6 +11,7 @@
 - [About Golang](#about-golang)  
   - [Installation](#installation)
   - [Compilation](#compilation)
+- [Build DLL](#build-dll)
 - [Examples](#examples)
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
 - [Credits](#credits)
@@ -37,10 +38,39 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 ### Compilation
 
-`go build` for compilation 
+Use `go build file.go` for compilation.
 
 - Omit debug symbols and strip the symbol table. it can also reduce binary size by about 30% : `go build -ldflags="-s -w" file.go`
 - Hide console, to avoid Go program displaying console windows on execution : `go build -ldflags -H=windowsgui rshell.go`
+
+
+## Build DLL
+
+```c
+package main
+
+import "C"
+import (
+	"fmt"
+	"os/exec"
+)
+
+//export PopCalc
+func PopCalc() {
+	fmt.Println("Spawning calculator")
+	cmd := exec.Command("cmd.exe", "/C", "C:\\Windows\\System32\\calc.exe")
+	cmd.Run()
+}
+
+func main() {
+	// leave blank
+}
+```
+
+compile it :
+```powershell
+go build -o sample.dll -buildmode=c-shared sample.go
+```
 
 ## Examples 
 
