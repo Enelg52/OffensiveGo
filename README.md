@@ -16,7 +16,7 @@
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
 - [Credits](#credits)
 
-## Previous work
+## Previous works
 
 These repo inspires me to make [OffensiveGo](https://github.com/RistBS/OffensiveGo)
 
