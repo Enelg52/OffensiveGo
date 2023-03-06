@@ -1,5 +1,7 @@
 package main
 
+// TODO : Fixing img base reloc
+
 import (
 	"fmt"
 	"strings"
