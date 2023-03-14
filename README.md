@@ -91,6 +91,7 @@ go build -o sample.dll -buildmode=c-shared sample.go
 | [Network](../main/network) | TCP, HTTP, and named pipes servers and clients for different communication channels.
 | [WMI](../main/wmi) | List the av/edr solution with a wmi query
 | [Srdi](../main/srdi) | Convert DLL files to position independent shellcode |
+| [Payload obfuscation](../main/crypto)| Encryption algorithms for payload obfuscation |
 
 ## Interesting Tools in Golang
 
