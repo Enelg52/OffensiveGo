@@ -88,6 +88,7 @@ go build -o sample.dll -buildmode=c-shared sample.go
 | [Sleep Obfuscation](../main/sleep_obfuscation/main.go)                                                 | Perform Sleep Obfuscation with Queue Timers       |
 | [AMSI Patching & Patchless](../main/amsi_bypasses/) | 2 Methods to bypass AMSI, first is to patch in memory with invalid value on `AmsiScanBuffer`, second is to use HWBP
 | [ETW Patching & Patchless](../main/etw_bypasses/) | 2 Methods to bypass ETW, first is to patch in memory with ret on `NtTraceControl`, second is to use HWBP
+| [Network](../main/network) | TCP, HTTP, and named pipes servers and clients for different communication channels.
 
 ## Interesting Tools in Golang
 
