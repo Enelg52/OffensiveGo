@@ -83,7 +83,6 @@ go build -o sample.dll -buildmode=c-shared sample.go
 | [execute-assembly](../main/detect_hooks/main.go)                                                  | Loads CLR and execute .NET assemblies in memory  |
 | [ACG + BlockDll](../main/acg_blockdll_process/main.go)                                                  | Apply Arbitrary Code Guard (ACG) & BlockDll policy on your process |
 | [Process Argument Stomping](../main/process_arg_stomping/main.go)                                                  | Erase Process argument by parsing RtlUserProcessParameters  |
-| [DNS over HTTP (DoH)](../main/dns_over_http/main.go)                                                  | A support of DNS over HTTP (DoH) for C2 communication  |
 | [Module Refreshing]() | Refresh the .text section of a module in memory (NTDLL here) | 
 | [Detect Hooks](../main/detect_hooks/main.go)                                                 | Detect Hooks set by AV/EDR on NTDLL               |
 | [Sleep Obfuscation](../main/sleep_obfuscation/main.go)                                                 | Perform Sleep Obfuscation with Queue Timers       |
