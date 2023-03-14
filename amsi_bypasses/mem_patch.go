@@ -43,10 +43,10 @@ func main() {
 		return
 	}
 	defer windows.CloseHandle(hProc)
-	AMS1patch1(hProc)
+	AMS1patch(hProc)
 }
 
-func AMS1patch1(hProc windows.Handle) 
+func AMS1patch(hProc windows.Handle) 
 {
 	patch := []byte{0x75}
 
