@@ -73,25 +73,28 @@ go build -o sample.dll -buildmode=c-shared sample.go
 
 ## Examples 
 
-| File                                                                                                   | Description                                                                                                                                                                              |
-|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Process Injection - APC](../main/injection_native_apc/main.go)        | Execute a shellcode with `NtQueueApcThread`  |
-| [Process Injection - CreateThread](../main/injection_native_thread/main.go)                         | Execute a shellcode with `NtCreateThreadEx`  |
-| [API hashing](../main/api_hashing/main.go)                                                  | resolve APIs from EAT using DJB2 hashing algorithm (you can bring your own algorithm)  |
-| [Whoami](../main/whoami/main.go)                                                  | rebuilt whoami process to show current user, groups & privileges   |
-| [EnableDebugPrivileges](../main/enable_debug_priv/main.go)                                   | Enable SeDebugPrivilege in the current process    |
-| [execute-assembly](../main/detect_hooks/main.go)                                                  | Loads CLR and execute .NET assemblies in memory  |
-| [ACG + BlockDll](../main/acg_blockdll_process/main.go)                                                  | Apply Arbitrary Code Guard (ACG) & BlockDll policy on your process |
-| [Process Argument Stomping](../main/process_arg_stomping/main.go)                                                  | Erase Process argument by parsing RtlUserProcessParameters  |
-| [Module Refreshing]() | Refresh the .text section of a module in memory (NTDLL here) | 
-| [Detect Hooks](../main/detect_hooks/main.go)                                                 | Detect Hooks set by AV/EDR on NTDLL               |
-| [Sleep Obfuscation](../main/sleep_obfuscation/main.go)                                                 | Perform Sleep Obfuscation with Queue Timers       |
-| [AMSI Patching & Patchless](../main/amsi_bypasses/) | 2 Methods to bypass AMSI, first is to patch in memory with invalid value on `AmsiScanBuffer`, second is to use HWBP
-| [ETW Patching & Patchless](../main/etw_bypasses/) | 2 Methods to bypass ETW, first is to patch in memory with ret on `NtTraceControl`, second is to use HWBP
-| [Network](../main/network) | TCP, HTTP, and named pipes servers and clients for different communication channels.
-| [WMI](../main/wmi) | List the av/edr solution with a wmi query
-| [Srdi](../main/srdi) | Convert DLL files to position independent shellcode |
-| [Payload obfuscation](../main/crypto)| Encryption algorithms for payload obfuscation |
+| File                                                                        | Description                                                                                                         |
+|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| [Process Injection - APC](../main/injection_native_apc/main.go)             | Execute a shellcode with `NtQueueApcThread`                                                                         |
+| [Process Injection - CreateThread](../main/injection_native_thread/main.go) | Execute a shellcode with `NtCreateThreadEx`                                                                         |
+| [API hashing](../main/api_hashing/main.go)                                  | resolve APIs from EAT using DJB2 hashing algorithm (you can bring your own algorithm)                               |
+| [Whoami](../main/whoami/main.go)                                            | rebuilt whoami process to show current user, groups & privileges                                                    |
+| [EnableDebugPrivileges](../main/enable_debug_priv/main.go)                  | Enable SeDebugPrivilege in the current process                                                                      |
+| [execute-assembly](../main/detect_hooks/main.go)                            | Loads CLR and execute .NET assemblies in memory                                                                     |
+| [ACG + BlockDll](../main/acg_blockdll_process/main.go)                      | Apply Arbitrary Code Guard (ACG) & BlockDll policy on your process                                                  |
+| [Process Argument Stomping](../main/process_arg_stomping/main.go)           | Erase Process argument by parsing RtlUserProcessParameters                                                          |
+| [Module Refreshing]()                                                       | Refresh the .text section of a module in memory (NTDLL here)                                                        | 
+| [Detect Hooks](../main/detect_hooks/main.go)                                | Detect Hooks set by AV/EDR on NTDLL                                                                                 |
+| [Sleep Obfuscation](../main/sleep_obfuscation/main.go)                      | Perform Sleep Obfuscation with Queue Timers                                                                         |
+| [AMSI Patching & Patchless](../main/amsi_bypasses/)                         | 2 Methods to bypass AMSI, first is to patch in memory with invalid value on `AmsiScanBuffer`, second is to use HWBP 
+| [ETW Patching & Patchless](../main/etw_bypasses/)                           | 2 Methods to bypass ETW, first is to patch in memory with ret on `NtTraceControl`, second is to use HWBP            
+| [Network](../main/network)                                                  | TCP, HTTP, and named pipes servers and clients for different communication channels.                                
+| [WMI](../main/wmi)                                                          | List the av/edr solution with a wmi query                                                                           
+| [Srdi](../main/srdi)                                                        | Convert DLL files to position independent shellcode                                                                 |
+| [Cryptography](../main/crypto)                                              | Encryption algorithms for various usage. Contains AES, RC4, chacha20 and xor.                                       |
+| [Self Remove](../main/self_remove)                                          | Self remove a executable. Golang implementation of https://github.com/LloydLabs/delete-self-poc
+| [Process Dump](../main/process_dump)                                        | Dump any process with `MiniDumpWriteDump`. In this example, lsass.exe 
+| [Dllmain](../main/dll_main)                                                 |  DllMain() entrypoint in Golang from https://gist.github.com/NaniteFactory/7a82b68e822b7d2de44037d6e7511734. Can be used for dll hijacking.
 
 ## Interesting Tools in Golang
 
