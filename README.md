@@ -93,6 +93,7 @@ go build -o sample.dll -buildmode=c-shared sample.go
 | [Srdi](../main/srdi)                                                        | Convert DLL files to position independent shellcode                                                                 |
 | [Cryptography](../main/crypto)                                              | Encryption algorithms for various usage. Contains AES, RC4, chacha20 and xor.                                       |
 | [Self Remove](../main/self_remove) | Self remove a executable. Golang implementation of https://github.com/LloydLabs/delete-self-poc
+| [Process Dump](../main/process_dump) | Dump any process with `MiniDumpWriteDump`. In this example, lsass.exe 
 
 ## Interesting Tools in Golang
 
