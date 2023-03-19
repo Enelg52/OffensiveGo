@@ -92,6 +92,7 @@ go build -o sample.dll -buildmode=c-shared sample.go
 | [WMI](../main/wmi) | List the av/edr solution with a wmi query
 | [Srdi](../main/srdi) | Convert DLL files to position independent shellcode |
 | [Payload obfuscation](../main/crypto)| Encryption algorithms for payload obfuscation |
+| [Sandbox detection/evasion](../main/sandbox)| Sandbox detection and evasion techniques |
 
 ## Interesting Tools in Golang
 
