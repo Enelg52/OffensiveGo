@@ -11,7 +11,6 @@
 - [About Golang](#about-golang)  
   - [Installation](#installation)
   - [Compilation](#compilation)
-- [Build DLL](#build-dll)
 - [Examples](#examples)
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
 - [Credits](#credits)
