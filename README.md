@@ -94,7 +94,7 @@ go build -o sample.dll -buildmode=c-shared sample.go
 | [Cryptography](../main/crypto)                                    | Encryption algorithms for various usage. Contains AES, RC4, chacha20 and xor.                                                              |
 | [Self Remove](../main/self_remove/self_remove.go)                 | Self remove a executable. Golang implementation of [delete-self-poc](https://github.com/LloydLabs/delete-self-poc)                                          |
 | [Process Dump](../main/process_dump/process_dump.go)              | Dump any process with `MiniDumpWriteDump`. In this example, it dumps LSASS                                                                     |
-| [Dllmain](../main/dll_main)                                       | DllMain() entrypoint in Golang from https://gist.github.com/NaniteFactory/7a82b68e822b7d2de44037d6e7511734. Can be used for dll hijacking. |
+| [Dllmain](../main/dll_main)                                       | `DllMain()` entrypoint in Golang from [this](https://gist.github.com/NaniteFactory/7a82b68e822b7d2de44037d6e7511734). Can be used for dll hijacking. |
 | [Token](../main/token)                                            | Play with windows token. List all the token, `ImpersonateLoggedOnUser` and `CreateProcessWithToken`.                                       |
 | [Sandbox detection/evasion](../main/sandbox)| Sandbox detection and evasion techniques |
 
