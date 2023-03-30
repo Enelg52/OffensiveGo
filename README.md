@@ -20,8 +20,12 @@
 
 These repo inspires me to make [OffensiveGo](https://github.com/RistBS/OffensiveGo)
 
-- [OffensiveRust](https://github.com/trickster0/OffensiveRust) : Made by [trickster012](https://twitter.com/trickster012), this project contains a bunch of examples made in [Rust](https://www.rust-lang.org/).
-- [OffensiveNim](https://github.com/byt3bl33d3r/OffensiveNim) : Made by [byt3bl33d3r](https://twitter.com/byt3bl33d3r), this one contains examples written in [Nim](https://nim-lang.org/).
+- [OffensiveRust](https://github.com/trickster0/OffensiveRust) : this project contains a bunch of examples made in [Rust](https://www.rust-lang.org/).
+- [OffensiveNim](https://github.com/byt3bl33d3r/OffensiveNim) : this one contains examples written in [Nim](https://nim-lang.org/).
+- [OffensiveCSharp](https://github.com/matterpreter/OffensiveCSharp) : A Collection of Offensive C# Tooling.
+- [OffensiveDLR](https://github.com/byt3bl33d3r/OffensiveDLR) : Toolbox containing research notes & PoC code for weaponizing .NET's [DLR](https://learn.microsoft.com/en-us/dotnet/framework/reflection-and-codedom/dynamic-language-runtime-overview).
+- [OffensiveVBA](https://github.com/S3cur3Th1sSh1t/OffensiveVBA) : This repo covers some code execution and AV Evasion methods for Macros in Office documents.
+- [OffensiveZig](https://github.com/darkr4y/OffensiveZig) : Some attempts at using [Zig](https://ziglang.org/) in penetration testing.
 
 
 ## About Golang
@@ -42,34 +46,6 @@ Go binaries generally have no installation dependencies, compiler statically lin
 - Omit debug symbols and strip the symbol table. it can also reduce binary size by about 30% : `go build -ldflags="-s -w" file.go`
 - Hide console, to avoid Go program displaying console windows on execution : `go build -ldflags -H=windowsgui rshell.go`
 
-
-## Build DLL
-
-```c
-package main
-
-import "C"
-import (
-	"fmt"
-	"os/exec"
-)
-
-//export PopCalc
-func PopCalc() {
-	fmt.Println("Spawning calculator")
-	cmd := exec.Command("cmd.exe", "/C", "C:\\Windows\\System32\\calc.exe")
-	cmd.Run()
-}
-
-func main() {
-	// leave blank
-}
-```
-
-compile it :
-```powershell
-go build -o sample.dll -buildmode=c-shared sample.go
-```
 
 ## Examples 
 
