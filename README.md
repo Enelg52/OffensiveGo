@@ -72,6 +72,7 @@ Go binaries generally have no installation dependencies, compiler statically lin
 | [Dllmain](../main/dll_main)                                       | `DllMain()` entrypoint in Golang from [this](https://gist.github.com/NaniteFactory/7a82b68e822b7d2de44037d6e7511734). Can be used for dll hijacking. |
 | [Token Manipulation](../main/token)                                            | Play with windows token. List all the token, `ImpersonateLoggedOnUser` and `CreateProcessWithToken`.                                       |
 | [Sandbox detection/evasion](../main/sandbox)| Sandbox detection and evasion techniques |
+| [Callback Injection](../main/callback_injection)| Callback shellcode injection using GrayString, EnumFonts and more... |
 
 ## Interesting Tools in Golang
 
