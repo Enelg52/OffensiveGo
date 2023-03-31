@@ -10,7 +10,7 @@
 - [Previous work](#previous-work)
 - [About Golang](#about-golang)  
   - [Installation](#installation)
-  - [Setup](#setup)
+  - [Workspace Setup](#setup)
   - [Compilation](#compilation)
   - [Obfuscate Go builds]()
   - [Golang Libs for Malware Dev]()
