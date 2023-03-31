@@ -12,8 +12,11 @@
   - [Installation](#installation)
   - [Setup](#setup)
   - [Compilation](#compilation)
+  - [Obfuscate Go builds]()
+  - [Golang Libs for Malware Dev]()
 - [Examples](#examples)
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
+- [Blue Teams note]()
 - [Credits](#credits)
 
 ## Previous works
