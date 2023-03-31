@@ -41,11 +41,14 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 ### Setup
 
-```ps
-# create a go.mod file in your project directory, which will be used to manage dependencies.
-> go mod init offensivego 
 
-# ensure that all your project's dependencies are up to date
+- create a `go.mod` file in your project directory, which will be used to manage dependencies :
+```ps
+> go mod init offensivego 
+```
+
+- ensure that all your project's dependencies are up to date :
+```ps
 > go mod tidy 
 ```
 
