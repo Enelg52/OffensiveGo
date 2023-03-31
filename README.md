@@ -10,6 +10,7 @@
 - [Previous work](#previous-work)
 - [About Golang](#about-golang)  
   - [Installation](#installation)
+  - [Setup](#setup)
   - [Compilation](#compilation)
 - [Examples](#examples)
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
@@ -38,6 +39,15 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 
 Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries. 2 MB for "Hello World" compared to 54 KB in C.
 
+### Setup
+
+```ps
+# create a go.mod file in your project directory, which will be used to manage dependencies.
+> go mod init offensivego 
+
+# ensure that all your project's dependencies are up to date
+> go mod tidy 
+```
 
 ### Compilation
 
