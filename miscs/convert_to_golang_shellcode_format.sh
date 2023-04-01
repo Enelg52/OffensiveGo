@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Converts a Cobalt Strike shellcode from C format to Golang format
+# Converts a Cobalt Strike shellcode from C format to Golang format, usage : > bash convert_to_golang_shellcode_format.sh payload.c
 #
 #
 
