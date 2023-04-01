@@ -42,7 +42,7 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 
 Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries. 2 MB for "Hello World" compared to 54 KB in C.
 
-### Setup
+### Workspace Setup
 
 
 - create a `go.mod` file in your project directory, which will be used to manage dependencies :
@@ -61,6 +61,10 @@ Go binaries generally have no installation dependencies, compiler statically lin
 - Omit debug symbols and strip the symbol table. it can also reduce binary size by about 30% : `go build -ldflags="-s -w" file.go`
 - Hide console, to avoid Go program displaying console windows on execution : `go build -ldflags -H=windowsgui rshell.go`
 
+### Obfuscate Go builds
+
+
+### Golang Libs for Malware Dev
 
 ## Examples 
 
