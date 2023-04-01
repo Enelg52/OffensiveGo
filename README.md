@@ -12,11 +12,11 @@
   - [Installation](#installation)
   - [Workspace Setup](#setup)
   - [Compilation](#compilation)
-  - [Obfuscate Go builds]()
-  - [Golang Libs for Malware Dev]()
+  - [Obfuscate Go builds](#obfuscate-go-builds)
+  - [Golang Libs for Malware Dev](#golang-libs-for-malware-dev)
 - [Examples](#examples)
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
-- [Blue Teams note]()
+- [Blue Teams note](#blue-teams-note)
 - [Credits](#credits)
 
 ## Previous works
@@ -105,6 +105,9 @@ Go binaries generally have no installation dependencies, compiler statically lin
 - [Mangle](https://github.com/optiv/Mangle) : A tool that manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs.
 - [Dent](https://github.com/optiv/Dent) : A framework for creating COM-based bypasses utilizing vulnerabilities in Microsoft's WDAPT sensors.
 - [Ivy](https://github.com/optiv/Ivy) : Payload creation framework for the execution of arbitrary VBA (macro) source code directly in memory. Ivy’s loader does this by utilizing programmatical access in the VBA object environment to load, decrypt and execute shellcode.
+
+
+## Blue Teams note
 
 
 ## Credits
