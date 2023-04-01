@@ -12,11 +12,8 @@
   - [Installation](#installation)
   - [Workspace Setup](#setup)
   - [Compilation](#compilation)
-  - [Obfuscate Go builds](#obfuscate-go-builds)
-  - [Golang Libs for Malware Dev](#golang-libs-for-malware-dev)
 - [Examples](#examples)
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
-- [Blue Teams note](#blue-teams-note)
 - [Credits](#credits)
 
 ## Previous works
@@ -61,10 +58,7 @@ Go binaries generally have no installation dependencies, compiler statically lin
 - Omit debug symbols and strip the symbol table. it can also reduce binary size by about 30% : `go build -ldflags="-s -w" file.go`
 - Hide console, to avoid Go program displaying console windows on execution : `go build -ldflags -H=windowsgui rshell.go`
 
-### Obfuscate Go builds
 
-
-### Golang Libs for Malware Dev
 
 ## Examples 
 
@@ -106,8 +100,6 @@ Go binaries generally have no installation dependencies, compiler statically lin
 - [Dent](https://github.com/optiv/Dent) : A framework for creating COM-based bypasses utilizing vulnerabilities in Microsoft's WDAPT sensors.
 - [Ivy](https://github.com/optiv/Ivy) : Payload creation framework for the execution of arbitrary VBA (macro) source code directly in memory. Ivy’s loader does this by utilizing programmatical access in the VBA object environment to load, decrypt and execute shellcode.
 
-
-## Blue Teams note
 
 
 ## Credits
