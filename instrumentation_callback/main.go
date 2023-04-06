@@ -28,7 +28,7 @@ func main() {
 	InstrumentationCallbackInfo.Callback = 0x0
 
 	NtSetInformationProcess.Call( uintptr( 0xffffffffffffffff ),
-								  ProcessInstrumentationCallback,
-	  							  uintptr( unsafe.Pointer( &InstrumentationCallbackInfo ) ),
-								  unsafe.Sizeof( InstrumentationCallbackInfo ) )
+				      ProcessInstrumentationCallback,
+	  			      uintptr( unsafe.Pointer( &InstrumentationCallbackInfo ) ),
+				      unsafe.Sizeof( InstrumentationCallbackInfo ) )
 }
