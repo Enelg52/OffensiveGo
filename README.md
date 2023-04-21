@@ -72,8 +72,8 @@ Go binaries generally have no installation dependencies, compiler statically lin
 | [Module Refreshing]()                                             | Refresh the .text section of a module in memory (NTDLL here)                                                                               | 
 | [Detect Hooks](../main/detect_hooks/main.go)                      | Detect Hooks set by AV/EDR on NTDLL                                                                                                        |
 | [Sleep Obfuscation](../main/sleep_obfuscation/main.go)            | Perform Sleep Obfuscation with Queue Timers                                                                                                |
-| [AMSI Patching & Patchless](../main/amsi_bypasses/)               | 2 Methods to bypass AMSI, first is to patch in memory with invalid value on `AmsiScanBuffer`, second is to use HWBP                        |
-| [ETW Patching & Patchless](../main/etw_bypasses/)                 | 2 Methods to bypass ETW, first is to patch in memory with ret on `NtTraceControl`, second is to use HWBP                                   |
+| [AMSI Patching](../main/amsi_bypasses/)               | bypass AMSI by patching in memory `AmsiScanBuffer`                       |
+| [ETW Patching](../main/etw_bypasses/)                 | bypass ETW, by patching in memory with `ret` on `NtTraceControl`                                   |
 | [Network](../main/network)                                        | TCP, HTTP, and named pipes servers and clients for different communication channels.                                                       |
 | [WMI Query](../main/wmi/wmi.go)                                         | List the av/edr solution with a wmi query                                                                                                  |
 | [sRDI](../main/srdi/srdi.go)                                      | Convert DLL files to position independent shellcode                                                                                        |
