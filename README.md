@@ -85,7 +85,7 @@ Go binaries generally have no installation dependencies, compiler statically lin
 | [Token Manipulation](../main/token)                                            | Play with windows token. List all the token, `ImpersonateLoggedOnUser` and `CreateProcessWithToken`.                                       |
 | [Sandbox detection/evasion](../main/sandbox)| Sandbox detection and evasion techniques |
 | [Callback Injection](../main/callback_injection)| Callback shellcode injection using `GrayStringA`, `EnumFonts` and more... |
-| [Instrumentation Callback](../main/instrumentation_callback)| Disable Instrumentation Callback on your process to avoid any potential direct syscall detection  |
+| [Instrumentation Callback](../main/instrumentation_callback)| Disable Instrumentation Callback on your process to reduce any potential direct syscall detection  |
 
 ## Interesting Tools in Golang
 
