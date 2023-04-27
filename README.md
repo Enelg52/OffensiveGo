@@ -66,7 +66,9 @@ The assembly language used with Go is a high-level, architecture-independent lan
 
 - That's how you declare function :
   ![image](https://user-images.githubusercontent.com/75935486/234733526-bacaf609-b59a-4b99-a4f2-f708f65a0909.png)
-
+  - **NOSPLIT** : avoid creating a stack frame for a function, which can improve performance.
+  - **NOFRAME** : skip the generation of a function prologue and epilogue, which can also improve performance by reducing the overhead of setting up and tearing down the stack frame for each call. 
+  
 > **Note** : It can be useful to use Assembly in Go for your loaders if you want to make a custom VEH or implementing direct/indirect syscall 
 
 ## Examples 
