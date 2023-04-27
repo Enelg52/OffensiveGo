@@ -97,6 +97,9 @@ The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and
 | [Callback Injection](../main/callback_injection)| Callback shellcode injection using `GrayStringA`, `EnumFonts` and more... |
 | [Instrumentation Callback](../main/instrumentation_callback)| Disable Instrumentation Callback on your process to reduce any potential direct syscall detection  |
 
+> **Note :** The misc contains some scripts that can be written in other languages with a link with Go language
+
+
 ## Interesting Tools in Golang
 
 - [Acheron](https://github.com/f1zm0/acheron) : Indirect syscalls for AV/EDR evasion in Go assembly.
