@@ -69,8 +69,9 @@ The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and
   - **NOSPLIT** : Don't insert the preamble to check if the stack must be split. The frame for the routine, plus anything it calls, must fit in the spare space remaining in the current stack segment. Used to protect routines such as the stack splitting code itself, which can improve performance.
   - **NOFRAME** : skip the generation of a function prologue and epilogue, even if this is not a leaf function, which can also improve performance by reducing the overhead of setting up and tearing down the stack frame for each call.
   
-> **Note** : It can be useful to use Assembly in Go for your loaders if you want to make a custom VEH or implementing direct/indirect syscall stub.
-  - https://www.youtube.com/watch?v=9jpnFmJr2PE&t=1s&ab_channel=GopherConUK
+> **Note** : It can be useful to use Assembly in Go for your loaders if you want to build direct/indirect syscall stub.
+
+- https://www.youtube.com/watch?v=9jpnFmJr2PE&t=1s&ab_channel=GopherConUK
 
 
 
@@ -125,6 +126,26 @@ The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and
 - [Mangle](https://github.com/optiv/Mangle) : A tool that manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs.
 - [Dent](https://github.com/optiv/Dent) : A framework for creating COM-based bypasses utilizing vulnerabilities in Microsoft's WDAPT sensors.
 - [Ivy](https://github.com/optiv/Ivy) : Payload creation framework for the execution of arbitrary VBA (macro) source code directly in memory. Ivy’s loader does this by utilizing programmatical access in the VBA object environment to load, decrypt and execute shellcode.
+
+## Comparison with other languages
+
+| Features                   | Go                             | Nim                         | Rust                         | C                            |
+| --------------------------| ------------------------------| ---------------------------| ----------------------------| ---------------------------|
+| Syntax styles             | C-like with curly braces      | Python-like                 | Like Rust                    | C-like with curly braces    |
+| Backend                   | LLVM or Self-hosted            | Others C Compiler or Self-Hosted | LLVM                      | Various compilers or Self-Hosted |
+| Code generation           | Support in future              | Supported                   | Supported                    | Supported                   |
+| Standard library          | General                        | Numerous                    | Comprehensive                | Limited                     |
+| Memory management         | Garbage collection             | Multi-paradigm GC           | Ownership-based               | Manual                      |
+| FFI                        | Directly                       | Supported                   | Supported                    | Supported                   |
+| Translate C to this lang  | Official                      | Third-Party                 | Supported                    | N/A                         |
+| Package manager           | N/A                            | Nimble                      | Cargo                        | N/A                         |
+| Cross-compile             | Convenient                    | Convenient                  | Supported                    | Supported                   |
+| Executable size (Win x86, debug mode) | ~4 MB                    | ~10 MB                      | ~4 MB                        | ~1 MB                        |
+| Learning curve            | Not so easy                   | Easy                        | Steep                        | Easy                        |
+| Community resources       | Limited                       | Rich                        | Strong                       | Strong                      |
+| Concurrency support       | Built-in                      | Built-in                    | Built-in                     | Libraries                   |
+| Obfuscation               | Obfuscated after compilation  | Obfuscated after compilation | Not obfuscated              | Not obfuscated              |
+| Debugging support         | Excellent                     | Good                        | Good                         | Good                        |
 
 
 ## Credits
