@@ -70,6 +70,8 @@ The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and
   - **NOFRAME** : skip the generation of a function prologue and epilogue, even if this is not a leaf function, which can also improve performance by reducing the overhead of setting up and tearing down the stack frame for each call.
   
 > **Note** : It can be useful to use Assembly in Go for your loaders if you want to make a custom VEH or implementing direct/indirect syscall stub.
+  - https://www.youtube.com/watch?v=9jpnFmJr2PE&t=1s&ab_channel=GopherConUK
+
 
 ## Examples 
 
