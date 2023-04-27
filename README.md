@@ -62,12 +62,12 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 ### Assembly in Go
 
-The assembly language used with Go is a high-level and is based on [Plan9 (P9)](https://9p.io/sys/doc/asm.html), architecture-independent language that includes mnemonics like `CALL` and `RET`, as well as higher-level constructs like loops and conditionals, which are implemented using lower-level assembly instructions by the assembler.
+The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and is based on [Plan9 (P9)](https://9p.io/sys/doc/asm.html), architecture-independent language that includes mnemonics like `CALL` and `RET`, as well as higher-level constructs like loops and conditionals, which are implemented using lower-level assembly instructions by the assembler.
 
 - That's how you declare function :
   ![image](https://user-images.githubusercontent.com/75935486/234733526-bacaf609-b59a-4b99-a4f2-f708f65a0909.png)
-  - **NOSPLIT** : avoid creating a stack frame for a function, which can improve performance.
-  - **NOFRAME** : skip the generation of a function prologue and epilogue, which can also improve performance by reducing the overhead of setting up and tearing down the stack frame for each call. 
+  - **NOSPLIT** : Don't insert the preamble to check if the stack must be split. The frame for the routine, plus anything it calls, must fit in the spare space remaining in the current stack segment. Used to protect routines such as the stack splitting code itself, which can improve performance.
+  - **NOFRAME** : skip the generation of a function prologue and epilogue, even if this is not a leaf function, which can also improve performance by reducing the overhead of setting up and tearing down the stack frame for each call.
   
 > **Note** : It can be useful to use Assembly in Go for your loaders if you want to make a custom VEH or implementing direct/indirect syscall 
 
