@@ -97,7 +97,7 @@ The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and
 | [Callback Injection](../main/callback_injection)| Callback shellcode injection using `GrayStringA`, `EnumFonts` and more... |
 | [Instrumentation Callback](../main/instrumentation_callback)| Disable Instrumentation Callback on your process to reduce any potential direct syscall detection  |
 
-> **Note** : The misc contains some scripts that can be written in other languages with a link with Go language
+> **Note** : The [misc](https://github.com/RistBS/OffensiveGo/tree/main/misc) folder contains some scripts like [convert_to_golang_shellcode_format.sh](https://github.com/RistBS/OffensiveGo/blob/main/misc/convert_to_golang_shellcode_format.sh) that can be written in other languages but but still relates to the Golang language.
 
 
 ## Interesting Tools in Golang
