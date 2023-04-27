@@ -12,6 +12,7 @@
   - [Installation](#installation)
   - [Workspace Setup](#setup)
   - [Compilation](#compilation)
+  - [Assembly in Go]()
 - [Examples](#examples)
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
 - [Golang Binary](#golang-binary)
@@ -59,7 +60,13 @@ Go binaries generally have no installation dependencies, compiler statically lin
 - Omit debug symbols and strip the symbol table. it can also reduce binary size by about 30% : `go build -ldflags="-s -w" file.go`
 - Hide console, to avoid Go program displaying console windows on execution : `go build -ldflags -H=windowsgui rshell.go`
 
+### Assembly in Go
 
+- That's how you declare function :
+![image](https://user-images.githubusercontent.com/75935486/234731553-b6910c8d-a86e-40b2-8a63-364a696ac30c.png)
+
+> **Note** </br>
+> It can be useful to use Assembly in Go for your loaders if you want to make a custom VEH or implementing direct/indirect syscall 
 
 ## Examples 
 
