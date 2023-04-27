@@ -62,6 +62,8 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 ### Assembly in Go
 
+The assembly language used with Go is a high-level, architecture-independent language that includes mnemonics like `CALL` and `RET`, as well as higher-level constructs like loops and conditionals, which are implemented using lower-level assembly instructions by the assembler.
+
 - That's how you declare function :
 ![image](https://user-images.githubusercontent.com/75935486/234731553-b6910c8d-a86e-40b2-8a63-364a696ac30c.png)
 
