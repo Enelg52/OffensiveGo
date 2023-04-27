@@ -74,6 +74,13 @@ The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and
 - https://www.youtube.com/watch?v=9jpnFmJr2PE&t=1s&ab_channel=GopherConUK
 
 
+### Obfuscate
+
+you can obfuscate Go builds using garble to replace strings and many other indcators with base64 encoding and removes extra intformations if necessary : https://github.com/burrowers/garble
+```
+garble build [build flags] [packages]
+```
+
 
 ### Golang Binary
 
