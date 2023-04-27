@@ -12,10 +12,11 @@
   - [Installation](#installation)
   - [Workspace Setup](#setup)
   - [Compilation](#compilation)
-  - [Assembly in Go]()
+  - [Assembly in Go](#assembly-in-go)
+  - [Obfuscate Go Builds](#obfuscate-go-builds)
+  - [Golang Binary](#golang-binary)
 - [Examples](#examples)
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
-- [Golang Binary](#golang-binary)
 - [Credits](#credits)
 
 ## Previous works
@@ -74,7 +75,7 @@ The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and
 - https://www.youtube.com/watch?v=9jpnFmJr2PE&t=1s&ab_channel=GopherConUK
 
 
-### Obfuscate
+### Obfuscate Go Builds
 
 you can obfuscate Go builds using garble to replace strings and many other indcators with base64 encoding and removes extra intformations if necessary : https://github.com/burrowers/garble
 ```
