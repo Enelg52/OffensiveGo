@@ -65,7 +65,7 @@ Go binaries generally have no installation dependencies, compiler statically lin
 The assembly language used with Go is a high-level, architecture-independent language that includes mnemonics like `CALL` and `RET`, as well as higher-level constructs like loops and conditionals, which are implemented using lower-level assembly instructions by the assembler.
 
 - That's how you declare function :
-![image](https://user-images.githubusercontent.com/75935486/234731553-b6910c8d-a86e-40b2-8a63-364a696ac30c.png)
+  ![image](https://user-images.githubusercontent.com/75935486/234733526-bacaf609-b59a-4b99-a4f2-f708f65a0909.png)
 
 > **Note** : It can be useful to use Assembly in Go for your loaders if you want to make a custom VEH or implementing direct/indirect syscall 
 
