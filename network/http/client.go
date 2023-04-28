@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-// avoid Go-Http-client user agent
+// TODO: avoid Go-Http-client user agent
 
 func main() {
 	host := "http://127.0.0.1:8080/ping"
