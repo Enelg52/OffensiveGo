@@ -80,7 +80,7 @@ func main() {
 			syscall.Syscall6(virtualProtectHandle, 4, ntdllModuleHandle+ntdllVirtualAddress, ntdllVirtualSize, windows.PAGE_EXECUTE_READWRITE, uintptr(unsafe.Pointer(&oldProtect)), 0, 0)
 
 			fmt.Scanln(&in)
-			r1, _, err := syscall.Syscall(rtlCopyMemoryHandle, 3, ntdllModuleHandle+ntdllVirtualAddress, ntdllMapping+ntdllVirtualAddress, ntdllVirtualSize)
+			syscall.Syscall(rtlCopyMemoryHandle, 3, ntdllModuleHandle+ntdllVirtualAddress, ntdllMapping+ntdllVirtualAddress, ntdllVirtualSize)
 
 			syscall.Syscall6(virtualProtectHandle, 4, ntdllModuleHandle+ntdllVirtualAddress, ntdllVirtualSize, uintptr(oldProtect), uintptr(unsafe.Pointer(&oldProtect)), 0, 0)
 
