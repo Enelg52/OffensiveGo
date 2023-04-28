@@ -133,6 +133,7 @@ garble build [build flags] [packages]
 
 ## Interesting Tools in Golang
 
+- [Hooka](https://github.com/D3Ext/Hooka) : Implant drop-in with multiple features
 - [Acheron](https://github.com/f1zm0/acheron) : Indirect syscalls for AV/EDR evasion in Go assembly.
 - [Sliver](https://github.com/BishopFox/sliver) : An Adversary Emulation Framework fully written in Golang with advanced evasion capabilities.
 - [BananaPhone](https://github.com/C-Sto/BananaPhone) : An easy to use GO variant of [Hells gate](https://github.com/am0nsec/HellsGate) with automatic SSN parsing.
