@@ -129,6 +129,7 @@ garble build [build flags] [packages]
 
 > **Note** : The [misc](https://github.com/RistBS/OffensiveGo/tree/main/misc) folder contains some scripts like [convert_to_golang_shellcode_format.sh](https://github.com/RistBS/OffensiveGo/blob/main/misc/convert_to_golang_shellcode_format.sh) that can be written in other languages but but still relates to the Golang language.
 
+> **Note** : More Examples will be added in the future :D
 
 ## Interesting Tools in Golang
 
