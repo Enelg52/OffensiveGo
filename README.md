@@ -19,7 +19,6 @@
 - [Interesting Tools in Golang](#interesting-tools-in-golang)
 - [Credits](#credits)
 
-<br>
 
 ## ️💾 Previous works
 
