@@ -132,7 +132,7 @@ garble build [build flags] [packages]
 
 > **Note** : More Examples will be added in the future :D
 
-## Interesting Tools in Golang
+## 🎖 Interesting Tools in Golang
 
 - [Acheron](https://github.com/f1zm0/acheron) : Indirect syscalls for AV/EDR evasion in Go assembly.
 - [Sliver](https://github.com/BishopFox/sliver) : An Adversary Emulation Framework fully written in Golang with advanced evasion capabilities.
@@ -148,6 +148,6 @@ garble build [build flags] [packages]
 
 I would also mention the [timwhitez's repo](https://github.com/timwhitez/) that contains many re-implementations in Golang.
 
-## Credits
+## 🎖 Credits
 - [@joff_thyer](https://twitter.com/joff_thyer) - https://www.youtube.com/watch?v=gH9qyHVc9-M&t=1131s&ab_channel=BlackHillsInformationSecurity
 - [@BlueSentinelSec](https://twitter.com/BlueSentinelSec) - https://github.com/bluesentinelsec/OffensiveGoLang/blob/master/Offensive%20GoLang%202.0%20-%20SANS%20Pen%20Test%20HackFest%202021.pdf
