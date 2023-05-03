@@ -78,7 +78,7 @@ The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and
   - **NOSPLIT** : Don't insert the preamble to check if the stack must be split. The frame for the routine, plus anything it calls, must fit in the spare space remaining in the current stack segment. Used to protect routines such as the stack splitting code itself, which can improve performance.
   - **NOFRAME** : skip the generation of a function prologue and epilogue, even if this is not a leaf function, which can also improve performance by reducing the overhead of setting up and tearing down the stack frame for each call.
   
-> **Note** : It can be useful to use Assembly in Go for your loaders if you want to build direct/indirect syscall stub.
+> **Note** : It can be useful to use Assembly in Go for your loaders if you want to build [direct](https://github.com/C-Sto/BananaPhone) / [indirect](https://github.com/f1zm0/acheron) syscall stub.
 
 - https://www.youtube.com/watch?v=9jpnFmJr2PE&t=1s&ab_channel=GopherConUK
 
