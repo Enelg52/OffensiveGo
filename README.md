@@ -21,7 +21,7 @@
 
 <br>
 
-## Previous works
+## ️💾 Previous works
 
 These repo inspires me to make [OffensiveGo](https://github.com/RistBS/OffensiveGo)
 
@@ -33,7 +33,7 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 - [OffensiveZig](https://github.com/darkr4y/OffensiveZig) : Some attempts at using [Zig](https://ziglang.org/) in penetration testing.
 
 
-## About Golang
+## 📝 About Golang 
 
 - **Simpler syntax**: Go's syntax is simpler and easier to learn.
 - **Garbage collection**: Go uses garbage collection, which makes memory management easier for developers.
@@ -44,7 +44,7 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 
 Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries. 2 MB for "Hello World" compared to 54 KB in C.
 
-### Workspace Setup
+### 🏗 Workspace Setup
 
 
 - create a `go.mod` file in your project directory, which will be used to manage dependencies :
