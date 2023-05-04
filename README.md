@@ -70,7 +70,7 @@ Go binaries generally have no installation dependencies, compiler statically lin
 
 ### Assembly in Go
 
-The [assembly language](https://go.dev/doc/asm) used with Go is a high-level and is based on [Plan9 (P9)](https://9p.io/sys/doc/asm.html), architecture-independent language that includes mnemonics like `CALL` and `RET`, as well as higher-level constructs like loops and conditionals, which are implemented using lower-level assembly instructions by the assembler.
+The [assembly language](https://go.dev/doc/asm) used with Go is based on [Plan9 (P9)](https://9p.io/sys/doc/asm.html) and is a high-level architecture-independent language that includes mnemonics like `CALL` and `RET`, as well as higher-level constructs like loops and conditionals, which are implemented using lower-level assembly instructions by the assembler.
 
 - That's how you declare function :
   ![image](https://user-images.githubusercontent.com/75935486/234733526-bacaf609-b59a-4b99-a4f2-f708f65a0909.png)
