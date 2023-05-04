@@ -39,7 +39,7 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 - **Cross-platform support**: Go has excellent cross-platform support and can be compiled to run on a wide range of platforms, including Windows, Linux, and macOS. Rust also has good cross-platform support, but its compilation process can be more complex.
 - **Goroutine**:  Goroutines are lightweight threads of execution that enable concurrent programming in Go, making it easy to write efficient, safe, and scalable concurrent programs, allowing for non-blocking concurrent execution and communication via channels.
 
-**OPSEC Consideration & Caveats of Golang**
+**OPSEC Consideration & Caveat of Golang**
 
 Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries. 2 MB for "Hello World" compared to 54 KB in C.
 
