@@ -145,7 +145,7 @@ garble build [build flags] [packages]
 - [Dent](https://github.com/optiv/Dent) : A framework for creating COM-based bypasses utilizing vulnerabilities in Microsoft's WDAPT sensors.
 - [Ivy](https://github.com/optiv/Ivy) : Payload creation framework for the execution of arbitrary VBA (macro) source code directly in memory. Ivy’s loader does this by utilizing programmatical access in the VBA object environment to load, decrypt and execute shellcode.
 
-I would also mention the [timwhitez's repo](https://github.com/timwhitez/) that contains many re-implementations in Golang.
+I would also mention the [timwhitez's github](https://github.com/timwhitez/) that contains many re-implementations in Golang.
 
 ## 🎖 Credits
 - [@joff_thyer](https://twitter.com/joff_thyer) - https://www.youtube.com/watch?v=gH9qyHVc9-M&t=1131s&ab_channel=BlackHillsInformationSecurity
