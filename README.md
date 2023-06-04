@@ -41,7 +41,7 @@ These repo inspires me to make [OffensiveGo](https://github.com/RistBS/Offensive
 
 **OPSEC Consideration & Caveat of Golang**
 
-Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries. 2 MB for "Hello World" compared to 54 KB in C.
+Go binaries generally have no installation dependencies, compiler statically links Go runtime and needed packages. Static linking results in larger binaries. 1.9 MB for "Hello World" compared to 54 KB in C.
 
 ### 🏗 Workspace Setup
 
