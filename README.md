@@ -136,6 +136,7 @@ garble build [build flags] [packages]
 - [Geacon](https://github.com/darkr4y/geacon) : implementation of CobaltStrike's Beacon in Go.
 - [Acheron](https://github.com/f1zm0/acheron) : Indirect syscalls for AV/EDR evasion in Go assembly.
 - [Sliver](https://github.com/BishopFox/sliver) : An Adversary Emulation Framework fully written in Golang with advanced evasion capabilities.
+- [Merlin](https://github.com/Ne0nd0g/merlin) : cross-platform post-exploitation HTTP/2 Command & Control server and agent
 - [BananaPhone](https://github.com/C-Sto/BananaPhone) : An easy to use GO variant of [Hells gate](https://github.com/am0nsec/HellsGate) with automatic SSN parsing.
 - [SourcePoint](https://github.com/Tylous/SourcePoint) : C2 profile generator for Cobalt Strike command and control servers designed to ensure evasion by reducing the Indicators of Compromise IoCs.
 - [ScareCrow](https://github.com/optiv/ScareCrow) : Payload creation framework designed around EDR bypass such as AMSI & ETW Bypass, Encryption, Stealth Process Injections, ect.
