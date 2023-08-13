@@ -151,3 +151,4 @@ I would also mention the [timwhitez's github](https://github.com/timwhitez/) tha
 ## 🎖 Credits
 - [@joff_thyer](https://twitter.com/joff_thyer) - https://www.youtube.com/watch?v=gH9qyHVc9-M&t=1131s&ab_channel=BlackHillsInformationSecurity
 - [@BlueSentinelSec](https://twitter.com/BlueSentinelSec) - https://github.com/bluesentinelsec/OffensiveGoLang/blob/master/Offensive%20GoLang%202.0%20-%20SANS%20Pen%20Test%20HackFest%202021.pdf
+- [@zimnyaatishina](https://twitter.com/zimnyaatishina) - https://tishina.in/execution/golang-winmaldev-basics
