@@ -22,7 +22,7 @@
 
 ## ️💾 Previous works
 
-These repo inspires me to make [OffensiveGo](https://github.com/RistBS/OffensiveGo)
+These repo inspires us to make [OffensiveGo](https://github.com/RistBS/OffensiveGo)
 
 - [OffensiveRust](https://github.com/trickster0/OffensiveRust) : this project contains a bunch of examples made in [Rust](https://www.rust-lang.org/).
 - [OffensiveNim](https://github.com/byt3bl33d3r/OffensiveNim) : this one contains examples written in [Nim](https://nim-lang.org/).
@@ -107,12 +107,7 @@ garble build [build flags] [packages]
 | File                                                              | Description                                                                                                                                |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | [Process Injection - APC](../main/injection_native_apc/main.go)   | Execute a shellcode with `NtQueueApcThread`                                                                                                |
-| [Process Injection - CreateThread](../main/injection_thread)      | Execute a shellcode with `NtCreateThreadEx` and `CreateThread`                                                                             |
-| [EnableDebugPrivileges](../main/enable_debug_priv/main.go)        | Enable SeDebugPrivilege in the current process                                                                                             |
-| [ACG + BlockDll](../main/acg_blockdll_process/main.go)            | Apply Arbitrary Code Guard (ACG) & BlockDll policy on your process                                                                         |                                                                             
-| [Module Refreshing]()                                             | Refresh the .text section of a module in memory (NTDLL here)                                                                               | 
-| [Detect Hooks](../main/detect_hooks/main.go)                      | Detect Hooks set by AV/EDR on NTDLL                                                                                                        |
-| [Sleep Obfuscation](../main/sleep_obfuscation/main.go)            | Encrypt the memory while sleeping                                                                                                |
+| [Process Injection - CreateThread](../main/injection_thread)      | Execute a shellcode with `NtCreateThreadEx` and `CreateThread`                                                                             |                                                                                             |                                                                         |                                                                                                                                                         |                                                                                               |
 | [AMSI Patching](../main/amsi_bypasses/)               | bypass AMSI by patching in memory `AmsiScanBuffer`                       |
 | [ETW Patching](../main/etw_bypasses/)                 | bypass ETW, by patching in memory with `ret` on `NtTraceControl`                                   |
 | [Network](../main/network)                                        | TCP, HTTP, and named pipes servers and clients for different communication channels.                                                       |
