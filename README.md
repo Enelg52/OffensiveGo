@@ -111,7 +111,7 @@ garble build [build flags] [packages]
 | [AMSI Patching](../main/amsi_bypasses/)               | bypass AMSI by patching in memory `AmsiScanBuffer`                       |
 | [ETW Patching](../main/etw_bypasses/)                 | bypass ETW, by patching in memory with `ret` on `NtTraceControl`                                   |
 | [Network](../main/network)                                        | TCP, HTTP, and named pipes servers and clients for different communication channels.                                                       |
-| [WMI Query](../main/wmi/wmi.go)                                         | List the av/edr solution with a wmi query                                                                                                  |
+| [WMI Query](../main/wmi/wmi.go)                                         | List the AV/EDR solution with a wmi query                                                                                                  |
 | [sRDI](../main/srdi/srdi.go)                                      | Convert DLL files to position independent shellcode                                                                                        |
 | [Cryptography](../main/crypto)                                    | Encryption algorithms for various usage. Contains AES, RC4, chacha20 and xor.                                                              |
 | [Self Remove](../main/self_remove/self_remove.go)                 | Self remove a executable. Golang implementation of [delete-self-poc](https://github.com/LloydLabs/delete-self-poc)                                          |
